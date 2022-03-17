@@ -150,7 +150,6 @@ end
 
 
 function library:NewWindow(title)
-	
 	local _window = window.new()
 
 	if (syn ~= nil) then
@@ -161,4 +160,4 @@ function library:NewWindow(title)
 	return _window
 end
 
-return function() return library end
+return library
