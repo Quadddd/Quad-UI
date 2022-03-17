@@ -129,7 +129,7 @@ function window:AddToggle(title, initialState, callback)
 		
 		local success, err = pcall(callback, enabled)
 		if not success then
-			print("Error running callback for " .. title .. " toggle button.", err)'
+			print("Error running callback for " .. title .. " toggle button.", err)
 			return
 		end
 		
