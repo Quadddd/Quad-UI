@@ -161,4 +161,4 @@ function library:NewWindow(title)
 	return _window
 end
 
-return library
+return function() return library end
